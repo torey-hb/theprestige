@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -11449,29 +11448,4 @@ iframe.uk-cover {
 .me-cannotplay span {
   padding: 15px;
   display: block;
-}
-
-h1 {
-  text-transform: uppercase;
-}
-
-.char1 {
-  color: orange;
-}
-
-.char7 {
-  color: green;
-}
-
-body h1,
-article p {
-  font-family: 'Lobster Two', cursive;
-}
-
-header {
-  background: red;
-}
-
-.uk-width-1-1 {
-  background: green;
 }
