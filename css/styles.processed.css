@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Bentham");
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -11448,4 +11449,52 @@ iframe.uk-cover {
 .me-cannotplay span {
   padding: 15px;
   display: block;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+body h1,
+article p {
+  font-family: 'Bentham', serif;
+}
+
+p {
+  text-align: right;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.mejs__controls {
+  margin: 5px;
+  left: -5px;
+}
+
+.mejs__time-total {
+  margin: -5px 0px;
+  height: 25px;
+  background: #0E2B3D;
+}
+
+.mejs__time-loaded {
+  height: 25px;
+  background: #3B5C78;
+}
+
+.mejs__time-current {
+  height: 25px;
+  background: #5B8DB7;
+}
+
+.mejs__duration,
+.mejs__currenttime {
+  font-family: 'Bentham', serif;
+  font-size: 17px;
+  color: gray;
+  line-height: 0px;
+}
+
+li {
+  list-style-type: none;
 }
