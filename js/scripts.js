@@ -1,6 +1,6 @@
-console.log('Be like Browser.');
+console.log('Be like Bowser.');
 // Lettering
-$('h1').lettering();
+$('h1').lettering('lines');
 
 // Video Player
 $('video').mediaelementplayer();
