@@ -11464,7 +11464,8 @@ h1 {
   color: #fff;
   text-align: center;
   margin-top: 150px;
-  -webkit-box-reflect: below -86px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(238, 238, 238, 0.7)));
+  -webkit-box-reflect: below -86px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(238, 238, 238, 0.2)));
+  transition: fade 2s;
 }
 
 body {
@@ -11472,7 +11473,8 @@ body {
   background-size: cover;
 }
 
-body h1,
+body,
+h1,
 article,
 a,
 footer {
@@ -11486,11 +11488,12 @@ p {
 }
 
 .firstp {
-  text-align: right;
+  text-align: justify;
 }
 
 .secondp {
-  text-align: left;
+  text-align: justify;
+  margin-top: 4%;
 }
 
 li {
@@ -11502,6 +11505,12 @@ a:hover {
   color: #000;
   text-decoration: none;
   font-size: 14px;
+}
+
+.footer,
+ul,
+article {
+  text-align: center;
 }
 
 .mejs__controls {
@@ -11540,20 +11549,6 @@ a:hover {
 }
 
 @media (max-width: 550px) {
-  p {
-    text-align: justify;
-    margin: auto;
-  }
-  .secondp {
-    text-align: right;
-  }
-  ul {
-    text-align: right;
-  }
-  body {
-    background: linear-gradient(#000, #000, #0E2B3D, #fff);
-    background-size: cover;
-  }
   .mejs__controls {
     height: 11%;
   }
